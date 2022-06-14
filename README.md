@@ -3,7 +3,7 @@
 <img src="pic/ludes.png" width="500">
 </p>
 
-This repo is based on [pulumi example](https://github.com/pulumi/automation-api-examples/tree/main/python/pulumi_over_http)
+This repo is based on [pulumi example](https://github.com/pulumi/automation-api-examples/tree/main/python/pulumi_over_http). I just add small changes, so it will work well with postman
 ### **Requirements**
 1. Python 3 and pip installed
 ### **Installation**
