@@ -8,3 +8,12 @@ This repo is based on [pulumi example](https://github.com/pulumi/automation-api-
 ```
 pip install -r requirements.txt
 ```
+### **How To**
+1. Run app
+```
+python app.py
+```
+### **Testing**
+1. I already provide postman collection, please import json collection to your postman
+
+![pulumi-1](pic/pulumi-1.png)
