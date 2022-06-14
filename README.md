@@ -1,4 +1,7 @@
 # Pulumi(Python) Over HTTP - Static Websites as a RESTful API
+<p align="center">
+<img src="pic/ludes.png" width="500">
+</p>
 This repo is based on [pulumi example](https://github.com/pulumi/automation-api-examples/tree/main/python/pulumi_over_http)
 ### **Requirements**
 1. Python 3 and pip installed
