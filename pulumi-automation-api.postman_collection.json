@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "f1ad6afe-a685-41a7-b913-cd01532931a4",
+		"name": "pulumi-automation-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8431215"
+	},
+	"item": [
+		{
+			"name": "list_handler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/sites",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"sites"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create_handler",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"hello\",\r\n    \"content\": \"hello world\\n\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/sites",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"sites"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update_handler",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"hello\",\r\n    \"content\": \"hello updated world!\\n\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/sites/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"sites",
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete_handler",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"hello\",\r\n    \"url\": \"s3-website-bucket-eae47b1.s3-website-us-west-2.amazonaws.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:1337/sites/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"sites",
+						"hello"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
