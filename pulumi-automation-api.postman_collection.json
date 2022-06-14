@@ -110,6 +110,14 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "get_handler",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
 		}
 	]
 }
