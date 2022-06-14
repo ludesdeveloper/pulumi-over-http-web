@@ -7,25 +7,6 @@
 	},
 	"item": [
 		{
-			"name": "list_handler",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "http://localhost:1337/sites",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "1337",
-					"path": [
-						"sites"
-					]
-				}
-			},
-			"response": []
-		},
-		{
 			"name": "create_handler",
 			"request": {
 				"method": "POST",
@@ -48,6 +29,45 @@
 					"port": "1337",
 					"path": [
 						"sites"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list_handler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/sites",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"sites"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_handler",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:1337/sites/hello",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1337",
+					"path": [
+						"sites",
+						"hello"
 					]
 				}
 			},
@@ -108,14 +128,6 @@
 						"hello"
 					]
 				}
-			},
-			"response": []
-		},
-		{
-			"name": "get_handler",
-			"request": {
-				"method": "GET",
-				"header": []
 			},
 			"response": []
 		}
